@@ -267,12 +267,6 @@ line {
       70%{ opacity: 0.09; }
       100%{ r: 75; opacity: 0; }
   }
-  
-  /* -------------------------------- 
-  
-  Primary style
-  
-  -------------------------------- */
   html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -290,11 +284,6 @@ line {
     background-color: black; /*#ffd88f;*/
   }
   
-  /* -------------------------------- 
-  
-  Modules - reusable parts of our design
-  
-  -------------------------------- */
   .img-replace {
     /* replace text with an image */
     display: inline-block;
