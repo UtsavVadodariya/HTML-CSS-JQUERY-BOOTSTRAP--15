@@ -1740,8 +1740,7 @@ inner:before,
 
 .btn-pTSecond {
   margin-top: 2rem;
-  border: border: 1px solid red;
-
+  border: 1px solid red;
   transform: scale(.8);
   transform-origin: left center;
   transition: .3s;
@@ -1764,4 +1763,132 @@ inner:before,
 
   transform: scale(0);
   transition: .6s;
+}
+::-webkit-scrollbar{
+  width: 0%;
+}
+
+
+.main5{
+  height: 680.4px;
+  background-color: black;
+  margin-top: -100px;
+  padding-top: 150px;
+}
+.main5 h2{
+  font-size: 32px;
+  color: white;
+  font-family: "Hind", sans-serif;
+  letter-spacing: 10px;
+  font-weight: lighter;
+  padding: 10px 0px 20px;
+}
+.d6{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.main5 p{
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  margin: 0px 0px 16px;
+}
+.main5 span{
+  font-size: 12px;
+  color: white;
+  font-family: "Hind", sans-serif;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+.main5 a{
+  font-size: 10px;
+  color: #5d5b5d;
+  font-family: "Hind", sans-serif;
+  display: block;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+
+.main6{
+  height: 812.25px;
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/120.jpg);
+}
+.main6 input{
+  width: 386.21px;
+  height: 51.4px;
+  padding: 13px 20px;
+  background-color: transparent;
+  border: 1px solid #909094;
+  color: #909094;
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.main6 textarea{
+  width: 1180.01px;
+  height: 130px;
+  background-color: transparent;
+  border: 1px solid #909094;
+  color: #909094;
+  padding: 15px;
+}
+.main6 h5{
+  font-size: 18px;
+  font-family: "Hind", sans-serif;
+  color: #f2f2f2;
+  padding-top: 200px;
+  letter-spacing: 5px;
+}
+.main6 h2{
+  font-size: 38px;
+  font-family: "Hind", sans-serif;
+  color: #f2f2f2;
+  letter-spacing: 10px;
+  font-weight: 400;
+  margin-top: -50px;
+}
+.main6 button{
+  height: 49px;
+  width: 157.66px;
+  display: block;
+  background-color: transparent;
+  border: 1px solid #909094;
+  color: #909094;
+  letter-spacing: 3px;
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 80px;
+}
+
+
+.main7{
+  height: 277.75px;
+  background-color: black;
+  padding: 80px 0px;
+}
+.main7 img{
+  height: 18px;
+  width: 121.24px;
+  display: block;
+}
+.main7 i{
+  font-size: 18px;
+  color: #909094;
+  margin-left: 8px;
+  margin-top: 30px;
+}
+.main7 p{
+  font-size: 12px;
+  color: #cecece;
+  margin: 20px 0px 0px;
+  font-family: "Mulish", sans-serif;
+
 }
